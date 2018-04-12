@@ -14,6 +14,8 @@
 		4C45BE822074031600F6982F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C45BE802074031600F6982F /* LaunchScreen.storyboard */; };
 		4C45BE8D2074031600F6982F /* poc_gradient_navigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE8C2074031600F6982F /* poc_gradient_navigationTests.swift */; };
 		4C45BE982074031600F6982F /* poc_gradient_navigationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C45BE972074031600F6982F /* poc_gradient_navigationUITests.swift */; };
+		4CAEB53A207FDDAB00278336 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB539207FDDAB00278336 /* MenuTableViewController.swift */; };
+		4CAEB53D207FDE2700278336 /* MainNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAEB53C207FDE2700278336 /* MainNavigationBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4C45BE932074031600F6982F /* poc-gradient-navigationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-gradient-navigationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C45BE972074031600F6982F /* poc_gradient_navigationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_gradient_navigationUITests.swift; sourceTree = "<group>"; };
 		4C45BE992074031600F6982F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CAEB539207FDDAB00278336 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		4CAEB53C207FDE2700278336 /* MainNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		4C45BE762074031600F6982F /* poc-gradient-navigation */ = {
 			isa = PBXGroup;
 			children = (
+				4CAEB53B207FDE0A00278336 /* views */,
+				4CAEB536207FDD2200278336 /* controllers */,
 				4C45BE772074031600F6982F /* AppDelegate.swift */,
 				4C45BE792074031600F6982F /* ViewController.swift */,
 				4C45BE7B2074031600F6982F /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				4C45BE992074031600F6982F /* Info.plist */,
 			);
 			path = "poc-gradient-navigationUITests";
+			sourceTree = "<group>";
+		};
+		4CAEB536207FDD2200278336 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB539207FDDAB00278336 /* MenuTableViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4CAEB53B207FDE0A00278336 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4CAEB53C207FDE2700278336 /* MainNavigationBar.swift */,
+			);
+			path = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CAEB53D207FDE2700278336 /* MainNavigationBar.swift in Sources */,
 				4C45BE7A2074031600F6982F /* ViewController.swift in Sources */,
 				4C45BE782074031600F6982F /* AppDelegate.swift in Sources */,
+				4CAEB53A207FDDAB00278336 /* MenuTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
