@@ -10,6 +10,18 @@ import UIKit
 
 extension UIColor {
 
+    static var taupeGray: UIColor {
+        get {
+            return UIColor(red: 147/255.0, green: 147/255.0, blue: 147/255.0, alpha: 1)
+        }
+    }
+    
+    static var lightGray: UIColor {
+        get {
+            return UIColor(red: 210/255.0, green: 210/255.0, blue: 210/255.0, alpha: 1)
+        }
+    }
+    
     static var safetyOrange: UIColor {
         get {
             return UIColor(red: 230/255.0, green: 97/255.0, blue: 0/255.0, alpha: 1)
